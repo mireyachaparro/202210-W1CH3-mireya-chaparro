@@ -12,13 +12,15 @@
     </head>
     <body>
         <header>
-            <h1>Lista de la compra</h1>
             <nav>
-                <ul>
-                    <li>Principal</li>
-                    <li>Lista</li>
-                    <li>Acerca de</li>
-                </ul>
+                <div><h1>Lista de la compra</h1></div>
+                <div>
+                    <ul>
+                        <li>Principal</li>
+                        <li>Lista</li>
+                        <li>Acerca de</li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <section>
@@ -26,10 +28,26 @@
             <p>2/3 comprados</p>
         </section>
         <form>
-            <input type="checkbox" name="comida" id="comida" required />
-            <label for="comida">Pan</label>
+            <input type="checkbox" name="comida" id="comida" />
+            <label for="comida">Pan</label
+            ><label for="comida" class="precio">0.75€ ❌</label><br /><br />
+            <input type="checkbox" name="comida" id="comida" />
             <label for="comida">Azúcar</label>
+            <br /><br />
+            <input type="checkbox" name="comida" id="comida" />
             <label for="comida">Leche</label>
+            <label for="comida" class="precio">1.20€ ❌</label><br /><br />
         </form>
+        <div></div>
+        <div class="total">1.95€</div>
+        <div class="logo">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img
+                    style="border: 0; width: 88px; height: 31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="¡CSS Válido!"
+                />
+            </a>
+        </div>
     </body>
 </html>

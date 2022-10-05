@@ -1,11 +1,73 @@
+body {
+    font-family: arial;
+    margin: 0;
+}
+
 header {
     background-color: #5169a7;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    height: 100px;
+}
+
 section {
     background-color: #d09d72;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 20px;
 }
 
 form {
     background-color: #d1bead;
+    padding: 50px 10px 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    float: right;
+    padding: 14px 16px;
+}
+
+h1 {
+    float: left;
+}
+
+p {
+    float: right;
+    font-size: 2rem;
+}
+
+.precio {
+    float: right;
+}
+div:empty {
+    background-color: purple;
+    height: 1px;
+}
+
+.total {
+    background-color: #d1bead;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px 150px 0;
+    font-size: 2rem;
+}
+
+.logo {
+    background-color: #5169a7;
+    padding: 30px 50%;
 }
