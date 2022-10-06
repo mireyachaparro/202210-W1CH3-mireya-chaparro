@@ -88,6 +88,11 @@ div:empty {
 
 input {
     background-color: inherit;
+    /*top-left-right-bottom ya no se usa, se hace con 
+    margin-block-start: arriba
+    margin-block-end: abajo
+    margin-inline-start: izquierda
+    margin-block-end: derecha*/
     border-top: none;
     border-left: none;
     border-right: none;
